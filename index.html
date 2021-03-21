@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Koiil</title>
+<link rel="icon" type="image/ico" href="img/favicon.ico" />
+<link rel="stylesheet" href="css/index.css" />
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script
+    src="http://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymouse"></script>
+<script src="../index.js" defer></script>
+<script>
+$(document).ready(()=>{
+    var jbTime = 1000;
+    $('.hi').animate({
+        opacity: '1'
+        },jbTime,()=>{
+            $('.name').animate({
+            opacity: '1'
+            },jbTime,()=>{
+                $('.know').animate({
+                opacity: '1'
+            },jbTime);
+        });
+    });
+});
+</script>
+</head>
+
+<body id="home">
+<header>
+    <a href="index.html" class="logo">about.Koiil🌿🍀</a>
+    <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="./project.html">Project</a></li>
+    </ul>
+    </nav>
+    <ul class="link">
+    <li class="link__icon">
+        <a
+        href="https://github.com/rachel5004"
+        target="_blank"
+        title="github"
+        ><img style="width: 90%;"src="img/github.png"></img></a>
+    </li>
+    <li class="link__icon">
+        <a href="https://velog.io/@_koiil" target="_blank"
+        ><img style="width: 90%; margin-left: 50%;" src="img/blog.png"></img
+        ></a>
+    </li>
+    </ul>
+</header>
+<section class="home">
+    <div class="home__text eng">
+    <p class="hi" style="font-size:22px; text-align:center; opacity: 0;">Hi🖐</p>
+    <p class="name" style="font-size:22px; text-align:center; opacity: 0;">My name is Koiil!</p>
+    <p class="know" style="font-size:22px; text-align:center; opacity: 0;">Wanna know about me?</p>
+    </div>
+    <img class="home__picture" src="img/memoji.png" alt="my-picture" />
+    <div class="home__text kor">
+    <p>
+        안녕하세요! 저는 <a href="#me"><span>Koiil</span></a
+        >이에요
+    </p>
+    <p>
+        2021년, 저는 <a href="#about__age"><span>25살</span></a> 이에요!
+    </p>
+    <p>
+        저는 <a href="#about__traveling"><span>커피</span></a
+        >와 <a href="#about__concert"><span>고양이</span></a
+        >를 정말 좋아해요!
+    </p>
+    <p>
+        <a href="#about__major"><span>영어영문</span></a
+        >학과를 전공했고
+    </p>
+    <p>
+        작년에 <a href="#about__graduate"><span>졸업</span></a
+        >을 했답니다 🥳
+    </p>
+    <p>
+        그리고 이제 <a href="#about__wecode"><span>개발자</span></a
+        >가 되기 위해 다시 공부를 시작해요
+    </p>
+    </div>
+</section>
+<section class="about">
+    <div id="about__age" class="about__age">
+    <h1>Stack</h1>
+    </div>
+    <div id="about__traveling" class="about__traveling">
+    <img src="./imgs/travel01.png" alt="picture of hollywood" />
+    <img src="./imgs/travel02.png" alt="picture of surfy beach" />
+    <img src="./imgs/travel03.png" alt="picture of white sand dunes" />
+    </div>
+    <div id="about__concert" class="about__concert">
+    <img src="./imgs/concert01.GIF" alt="concert" />
+    <img src="./imgs/concert02.GIF" alt="concert" />
+    <img src="./imgs/concert03.GIF" alt="concert" />
+    </div>
+    <div id="about__major" class="about__major">
+    <img src="./imgs/major.png" alt="major" />
+    </div>
+    <div id="about__graduate" class="about__graduate">
+    <img src="./imgs/graduate01.GIF" alt="graduation" />
+    <img src="./imgs/graduate02.GIF" alt="graduation" />
+    </div>
+    <div id="about__wecode" class="about__wecode">
+    <img src="./imgs/wecode.png" alt="graduation" />
+    </div>
+</section>
+<footer>
+    <ul>
+    <li><p>copyright ⓒ 2021 All rights reserved by koiil.</p></li>
+    <li>
+        <a href="mailto:j26597719@naver.com" target="_top">
+        📧 Mail me : j26597719@naver.com</a>
+    </li>
+    </ul>
+</footer>
+</body>
+</html>
