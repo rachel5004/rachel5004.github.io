@@ -132,20 +132,26 @@ nav ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 5px;
-
   background-image: url("../img/momentom.gif");
 }
 
 .ShareToDoList {
-  background-image: url("./projects/todolist.GIF");
+  background-image: url("../img/");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
 
-.squarespace {
-  background-image: url("./projects/squarespace-clone.GIF");
+.unicat {
+  background-image: url("../img/unicat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.ITguide {
+  background-image: url("../img/2차.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
